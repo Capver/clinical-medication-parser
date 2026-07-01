@@ -56,13 +56,6 @@ The clinical transcription provides detailed information about the patient's med
    • valproic acid | Reason: historical past (Clue: 'history of use')
    • Topamax | Reason: historical past (Clue: 'history of use')
 ```
-
-You can also parse direct text:
-
-```bash
-python medication_parser.py --text "Patient is allergic to PCN. Currently takes Lipitor 20 mg daily."
-```
-
 ---
 
 ## How It Works
@@ -138,7 +131,7 @@ The extraction logic is separated from the CLI, making it feasible to swap the O
 
 ## Engineering Journey
 
-The final architecture came from several rounds of testing, failure analysis, and redesign. This section is included because the project was not simply a one-shot LLM prompt; most of the value came from identifying failure modes and changing the system architecture around them.
+The final architecture came from several rounds of testing, failure analysis, and redesign. This section is included because the project was not simply a one-shot LLM prompt. Most of the value came from identifying failure modes and changing the system architecture around them.
 
 | Phase | Approach | Model Tested | Main Issue Found | Design Change |
 | :---: | :--- | :--- | :--- | :--- |
