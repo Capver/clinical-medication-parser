@@ -29,6 +29,8 @@ A simple single-pass LLM extraction prompt often finds the obvious active drugs 
 
 ## Demo
 
+This is an example of how the parser works on patient ID 4313 from the MTSamples dataset:
+
 ```bash
 python medication_parser.py --ids 4313
 ```
@@ -41,7 +43,11 @@ Parsing Patient ID 4313 (Specialty:  Consult - History and Phy.)
 ==================================================
 
 🧠 Clinical Reasoning:
-The clinical transcription provides detailed information about the patient's medical history, current medications, and treatment plan. The medication list includes several drugs that are part of the patient's ongoing management for epilepsy and other neurological conditions. Additionally, there is a mention of past medications in the history section.
+The clinical transcription provides detailed information about the patient's
+medical history, current medications, and treatment plan. The medication list
+includes several drugs that are part of the patient's ongoing management for
+epilepsy and other neurological conditions. Additionally, there is a mention
+of past medications in the history section.
 
 📋 Active & Discontinued Medications:
    • Zonegran | Dose: 50 mg | Frequency: BID | Route: Oral | Status: active
