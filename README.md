@@ -226,7 +226,7 @@ ollama pull qwen2.5:14b
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/clinical-medication-parser.git
+git clone https://github.com/Capver/clinical-medication-parser.git
 cd clinical-medication-parser
 
 python -m venv .venv
